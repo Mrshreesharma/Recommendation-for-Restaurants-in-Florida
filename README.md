@@ -1,4 +1,4 @@
-# Recommendation-for-Restaurants-in-Florida
+# Recommendation-for-Restaurants-in-Tampa-Florida
 Here we are using a recommendation system to predict good restaurants according to a person's liking in Florida.
 
 In Pre-processing we have merged the two important datasets that are the business and review datasets. 
