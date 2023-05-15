@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+from PIL import Image
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -43,32 +44,7 @@ import plotly_express as px
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
-
-# Importing scipy Packages
-#from scipy.sparse.linalg import svds
-#from haversine import haversine, Unit
-
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-
-import base64
-def add_bg_from_local(image_file):
-    with open(image_file, "rb") as image_file:
-        encoded_string = base64.b64encode(image_file.read())
-    st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});
-        background-size: cover
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
-add_bg_from_local('color.jpg')
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Load Yelp data into a DataFrame
 Final_data = pd.read_csv("Business_tampa.csv")
