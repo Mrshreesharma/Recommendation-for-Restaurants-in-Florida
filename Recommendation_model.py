@@ -3,18 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 from PIL import Image
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-import seaborn as sns
 pd.set_option('display.max_columns', 50)
-
-# Importing Plotly Packages
-
-import plotly 
-import plotly.offline as py
-import plotly.graph_objs as go
-import plotly_express as px
 
 # Importing sklearn Packages
 
@@ -22,11 +11,6 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
-
-# Importing scipy Packages
-#from scipy.sparse.linalg import svds
-#from haversine import haversine, Unit
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
