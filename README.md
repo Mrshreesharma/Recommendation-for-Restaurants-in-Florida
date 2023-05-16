@@ -17,7 +17,7 @@ Streamlit, a popular Python library for building interactive web applications, w
 Here is the link for our web-app https://reccomendationsystem3.onrender.com/
 
 ### Deployment and Hosting:
-To make the recommendation system accessible to a wider audience, we deployed the web application using Render. This deployment allowed users to access the system through a web browser without any local installations or dependencies.
+To make the recommendation system accessible to a wider audience, we deployed the web application using Render https://render.com/ . This deployment allowed users to access the system through a web browser without any local installations or dependencies.
 
 ### Conclusion:
 In conclusion, we successfully developed a location-based recommendation system for Tampa City using Yelp data. The system provides personalized restaurant recommendations based on the user's selected location and preferences. The integration of streamlit framework and machine learning algorithms enhances the user experience by providing an interactive and visually appealing interface. With its deployment on Render, the system is readily available to users, making it a valuable tool for exploring and discovering new dining experiences in Tampa City.
