@@ -16,7 +16,8 @@ The project started with the collection and preprocessing of Yelp data. The data
 To group similar restaurants together, we employed the K-means clustering algorithm. By considering the longitude and latitude coordinates of each restaurant, we assigned them to one of the clusters. This clustering step allowed us to create a recommendation system based on the user's selected location.
 
 # Streamlit Web Interface:
-Streamlit, a popular Python library for building interactive web applications, was utilized to create the web interface. The interface consists of two main tabs: "Customizable Recommendations," "Table View," and "Map View." The "Customizable Recommendations" tab provides users with the ability to filter recommendations based on review count and stars. Users can visualize the results in both table and map views.
+Streamlit, a popular Python library for building interactive web applications, was utilized to create the web interface. The interface consists of two main tabs: "Customizable Recommendations," "Table View," and "Map View." The "Customizable Recommendations" tab provides users with the ability to filter recommendations based on review count and stars. Users can visualize the results in both table and map views. 
+Here is the link for our web-app https://reccomendationsystem3.onrender.com/
 
 # Deployment and Hosting:
 To make the recommendation system accessible to a wider audience, we deployed the web application using Render. This deployment allowed users to access the system through a web browser without any local installations or dependencies.
