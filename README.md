@@ -16,6 +16,10 @@ To group similar restaurants together, we employed the K-means clustering algori
 Streamlit, a popular Python library for building interactive web applications, was utilized to create the web interface. The interface consists of two main tabs: "Customizable Recommendations," "Table View," and "Map View." The "Customizable Recommendations" tab provides users with the ability to filter recommendations based on review count and stars. Users can visualize the results in both table and map views. 
 Here is the link for our web-app https://reccomendationsystem3.onrender.com/
 
+
+![image](https://github.com/Mrshreesharma/Recommendation-for-Restaurants-in-Florida/assets/60129674/1fa13194-5713-404a-8118-14ef19558613)
+
+
 ### Deployment and Hosting:
 To make the recommendation system accessible to a wider audience, we deployed the web application using Render https://render.com/ . This deployment allowed users to access the system through a web browser without any local installations or dependencies.
 
